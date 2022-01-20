@@ -1,0 +1,18 @@
+<web-app>
+    <servlet>
+        <servlet-name>
+        MySpace
+        </servlet-name>
+        <servlet-class>
+        MySpaceTest
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+        MySpace
+        </servlet-name>
+        <url-pattern>
+        /my-space
+        </url-pattern>
+    </servlet-mapping>
+</web-app>
