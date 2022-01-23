@@ -123,7 +123,29 @@
             <q>"News IT, entreprises partenaires, offres d'alternances et de stages."</q>
         </div>
         <hr class="grad">
-        
+               
+        <!-- SECTION PRODUIT -->
+        <section id="sec-produit">
+            <div class="sec-produit-title">
+                <h1>PRODUIT</h1>
+                <p></p>
+            </div>
+            <div class="sec-produit-svg">
+                <img src="img/Cellphone-rafiki.svg" alt="" />
+            </div>
+            <div class="sec-produit-content">
+                <h2>Application disponible dans le store google pour les appareils type Android</h2>
+                <a href="#" ><img src="img/store.png" alt="" /></a>
+            </div>
+        </section>
+        <!-- SECTION PRODUIT -->
+
+        <!--<hr class="grad">
+        <div class="bg-objectif slide-in-fwd-center">
+            <q>"News IT, entreprises partenaires, offres d'alternances et de stages."</q>
+        </div>
+        <hr class="grad">-->
+
         <!-- SECTION CONTACT -->
         <section id="sec-contact">            
             <div class="sec-contact-title">

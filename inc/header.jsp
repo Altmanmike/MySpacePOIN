@@ -55,11 +55,12 @@
                     <li class="responsiv-navbar-menu-list"><a class="navbar-menu-list-item" href="#sec-services"><i class="fas fa-tasks"></i> SERVICES</a></li>
                     <li class="responsiv-navbar-menu-list"><a class="navbar-menu-list-item" href="#sec-competences"><i class="fas fa-chart-pie"></i> COMPÉTENCES</a></li>
                     <li class="responsiv-navbar-menu-list"><a class="navbar-menu-list-item" href="#sec-obj"><i class="fas fa-chart-line"></i> OBJECTIF</a></li>
+                    <li class="responsiv-navbar-menu-list"><a class="navbar-menu-list-item" href="#sec-produit"><i class="fab fa-google-play"></i> PRODUIT</a></li>
                     <li class="responsiv-navbar-menu-list"><a class="navbar-menu-list-item" href="#sec-contact"><i class="far fa-envelope"></i> CONTACT</a></li>
                 </ul>
             </li>
         </ul>
-        <li class="nav-item dropdown justify-content-end" style="list-style: none;">
+        <!--<li class="nav-item dropdown justify-content-end" style="list-style: none;">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fas fa-sign-in-alt"></i> 
             </a>
@@ -70,7 +71,7 @@
                 <li><a class="dropdown-item" href="profile_edit.jsp"><i class="far fa-edit"></i> Éditer</a></li>
                 <li><a class="dropdown-item" href="logout.jsp"><i class="fas fa-sign-out-alt"></i> Se déconnecter</a></li>
             </ul>
-        </li>
+        </li>-->
     </nav>
 
     <nav id="navbar">
@@ -84,10 +85,11 @@
                 <li class="navbar-menu-list"><a class="navbar-menu-list-item" href="#sec-services"><i class="fas fa-id-card"></i> SERVICES</a></li>
                 <li class="navbar-menu-list"><a class="navbar-menu-list-item" href="#sec-competences"><i class="fas fa-chart-pie"></i> COMPÉTENCES</a></li>
                 <li class="navbar-menu-list"><a class="navbar-menu-list-item" href="#sec-obj"><i class="fas fa-chart-line"></i> OBJECTIF</a></li>
+                <li class="navbar-menu-list"><a class="navbar-menu-list-item" href="#sec-produit"><i class="fab fa-google-play"></i> PRODUIT</a></li>
                 <li class="navbar-menu-list"><a class="navbar-menu-list-item" href="#sec-contact"><i class="far fa-envelope"></i> CONTACT</a></li>
             </ul>
         </div>
-        <div class="justify-content-end">
+        <!--<div class="justify-content-end">
             <ul>
                 <li class="nav-item dropdown justify-content-end">
                     <a class="nav-link dropdown-toggle" href="signin.jsp" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -102,7 +104,7 @@
                     </ul>
                 </li>
             </ul>
-        </div>
+        </div>-->
     </nav>
     <hr class="grad">
 

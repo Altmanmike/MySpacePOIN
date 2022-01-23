@@ -1,4 +1,35 @@
 /* ---------------------------------------------------------- */
+/* ---------------------- FONT-FACE ------------------------- */
+/* ---------------------------------------------------------- */
+
+@font-face {
+    font-family: 'Xolonium';
+    src: url('../font/xolonium/Xolonium-Bold.eot');
+    src: url('../font/xolonium/Xolonium-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/xolonium/Xolonium-Bold.woff2') format('woff2'),
+        url('../font/xolonium/Xolonium-Bold.woff') format('woff'),
+        url('../font/xolonium/Xolonium-Bold.ttf') format('truetype'),
+        url('../font/xolonium/Xolonium-Bold.svg#Xolonium-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Xolonium';
+    src: url('../font/xolonium/Xolonium.eot');
+    src: url('../font/xolonium/Xolonium.eot?#iefix') format('embedded-opentype'),
+        url('../font/xolonium/Xolonium.woff2') format('woff2'),
+        url('../font/xolonium/Xolonium.woff') format('woff'),
+        url('../font/xolonium/Xolonium.ttf') format('truetype'),
+        url('../font/xolonium/Xolonium.svg#Xolonium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* ---------------------------------------------------------- */
 /* ------------------------ RESET --------------------------- */
 /* ---------------------------------------------------------- */
 
@@ -59,6 +90,8 @@ hr {
 }
 
 
+
+
 /* ---------------------------------------------------------- */
 /* ----------------------- GLOBAL --------------------------- */
 /* ---------------------------------------------------------- */
@@ -71,7 +104,7 @@ hr {
 html {
 	/*background: rgb(255,255,255);*/
 	/*font-size: 62.5%;*/ 	
-	font-family: 'Roboto', Verdana, sans-serif; /* 'Roboto', 'Montserrat', 'Turret Road', 'Oswald', 'Josefin Sans', 'Teko', 'Righteous', 'Prompt', 'Orbitron', 'Lexend Peta', 'Cinzel', 'Concert One', 'Russo One' */
+	font-family: 'Roboto', Verdana, sans-serif!important; /* 'Roboto', 'Montserrat', 'Turret Road', 'Oswald', 'Josefin Sans', 'Teko', 'Righteous', 'Prompt', 'Orbitron', 'Lexend Peta', 'Cinzel', 'Concert One', 'Russo One' */
     color: black;
     margin: 0 auto;
     padding: 0;
@@ -88,7 +121,7 @@ a i {
 }
 
 h1 {
-    font-family: 'Xolonium';
+    font-family: 'Xolonium'!important;
     font-size: 2em;
     color: white;
     text-shadow: 1px 1px 3px black;    
@@ -123,7 +156,7 @@ h1.welcome-title3:hover {
 }
 
 h2 {
-    font-family: 'Xolonium';
+    font-family: 'Xolonium'!important;
     font-size: 1.6em;
     color: white;
     text-shadow: 2px 3px 0px black;
@@ -140,7 +173,7 @@ input, textarea {
 /* ---------------------------------------------------------- */
 
 header {
-    font-family: 'Xolonium';
+    font-family: 'Xolonium'!important;
     position: fixed;
     width: 100%;
     z-index: 5;
@@ -638,6 +671,34 @@ section {
 }
 
 
+/* ---------- PRODUIT ---------- */
+/* ----------------------------- */
+
+#sec-produit {
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    /*height: 500px;*/
+}
+
+.sec-produit-svg img {
+    width: 250px;
+    height: 250px; 
+}
+
+.sec-produit-content h2 {
+    font-size: 1.5em;
+    color: black;
+    text-shadow: 1px 1px 3px white;
+}
+.sec-produit-content h2:hover {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+.sec-produit-content img {
+    width: 150px;  
+}
+
 /* ---------- CONTACT ---------- */
 /* ---------------------------- */
 
@@ -673,8 +734,6 @@ section {
     /*padding-left: 2em;*/
     text-align: center;
 }  
-
-
 
 
 /* *********************************************** */
@@ -943,6 +1002,21 @@ footer h1, footer h2 {
         margin-right: 0.75em;
     }
 
+    /* SECTION PRODUIT 568 px */
+
+    .sec-produit-svg img {        
+        width: 450px;
+        height: 450px; 
+    }
+    
+    .sec-produit-content h2 {
+        font-size: 1.5em;
+    }
+
+    .sec-produit-content a img {
+        width: 200px;  
+    }
+
 }
 
 
@@ -1010,7 +1084,7 @@ footer h1, footer h2 {
         align-content: center;
         align-items: center;
         justify-content: center;
-    
+    }
 
     
     /* BG- 768 px */
@@ -1072,7 +1146,7 @@ footer h1, footer h2 {
     /* SECTION COMPETENCES 768 px */
     
     #sec-competences {
-        /*height: 800px*/; /* ESSAYER ICI AUSSI AUTO HEIGHT */  
+        /*height: 800px; /* ESSAYER ICI AUSSI AUTO HEIGHT */  
         height: auto;
     }
 
@@ -1179,7 +1253,25 @@ footer h1, footer h2 {
     .bg-objectif {
         background-size: cover;
     }
+
+
+    /* SECTION PRODUIT 768 px */
+
+    .sec-produit-svg img {        
+        width: 550px;
+        height: 550px; 
+    }
     
+    .sec-produit-content h2 {
+        font-size: 1.5em;
+    }
+
+    .sec-produit-content img {
+        width: 200px;  
+    }
+
+
+
     /* SECTION CONTACT 768 px */
     
     #sec-contact {
@@ -1342,6 +1434,22 @@ footer h1, footer h2 {
     .sec-obj-final { 
         display: inline-flex;
         justify-content: center;
+    }
+
+
+    /* SECTION PRODUIT 1024 px */
+
+    .sec-produit-svg img {        
+        width: 600px;
+        height: 600px; 
+    }
+    
+    .sec-produit-content h2 {
+        font-size: 2em;
+    }
+
+    .sec-produit-content img {
+        width: 250px;  
     }
 
 
